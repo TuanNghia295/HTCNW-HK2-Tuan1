@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widdh=device-widdh, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bai 4:</h1>
+    <!--thẻ ol và thẻ ul,dl-->
+    <!--thẻ <ol> tạo danh sách có thứ tự 
+            + Thuộc tính type của <ol> gán bằng 1, a, A, i để thiết lập một số kiểu đánh số
+            + Thuộc tính start của <ol> để thiết lập giá trị bắt đầu đánh số
+                vd: <ol type="i" start="3">
+
+        thẻ <ul> tạo danh sách không có thứ tự
+        Các phần tử trong danhh sách ul được đánh dấu đầu dòng bằng ký hiệu hình tròn
+        Thuộc tính type của <ul> để thiết lập ký hiệu đầu mỗi phần tử có thể nhận các giá trị circle, disc, square
+    -->
+    <!--
+        Tag <dl> xác định danh sách (có đề mục và phần mô tả đề mục).
+        Tag <dl> sử dụng kết hợp với <dt> (định nghĩa các mục trong danh sách 
+        có thể xem như tiêu đề của các mục) và <dd> (mô tả các mục trong danh sách).
+
+        nói cho dễ hiểu: <dt> sử dụng các mục lớn bám sát mép màn hình. 
+                         <dd> sử dụng làm nội dung được lùi vào bên phải
+    -->
+
+    <ol type='I' start="1">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+        <li>Item four</li>
+        <ol type='i' start="1">
+            <li>Item 4.1</li>
+            <li>Item 4.2</li>
+            <li>Item 4.3</li>
+        </ol>
+        <li>Item five</li>
+    </ol>
+
+    <hr>
+    <ol type="I">
+        <li>Oakfiled Middle School</li>
+        <ol type='A'>
+            <li>Tod Hastings</li>
+            <ol>
+                <li>Math (#3)</li>
+                <li>History (#2)</li>
+                <li>Science (#2)</li>
+            </ol>
+            <li>Bonita Chavez</li>
+            <ol>
+                <li>Math (#1)</li>
+                <li>History (#4)</li>
+                <li>Science (#3)</li>
+            </ol>
+        </ol>
+
+        <li>Parkview Mid-high</li>
+        <ol type='A'>
+            <li>Jacque Russell</li>
+            <ol>
+                <li>Math (#2)</li>
+                <li>History (#5)</li>
+                <li>Science (#4)</li>
+            </ol>
+            <li>Dwanye Clancy</li>
+            <ol>
+                <li>Math (#4)</li>
+                <li>History (#7)</li>
+                <li>Science (#1)</li>
+            </ol>
+        </ol>
+
+        <dl>
+            <dd>.</dd>
+            <dd>.</dd>
+            <dd>.</dd>
+        </dl>
+    </ol>
+    <ol type="I" start="5">
+        <li>Jackson Heights Middle School</li>
+        <ol type="A">
+                <li>Christine Quon</li>
+                <ol>
+                    <li>Math (#7)</li>
+                    <li>History (#6)</li>
+                    <li>Science (#5)</li>
+                </ol>
+                <li>Roger dietz</li>
+                <ol>
+                    <li>Math (#5)</li>
+                    <li>History (#8)</li>
+                    <li>Science (#7)</li>
+                </ol>
+        </ol>
+    </ol>
+    
+
+</body>
+</html>
